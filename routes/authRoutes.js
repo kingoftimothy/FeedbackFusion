@@ -6,7 +6,9 @@ module.exports = (app) => {
         scope: ['profile', 'email'] // can ask for other user details with different scopes
     }));
 
-    app.get('/auth/google/callback', passport.authenticate('google'));
+    app.get('/auth/google/callback', passport.authenticate('google'), (req, res) => {
+        res.redirect("/surveys");
+    });
 
     app.get('/auth/github', passport.authenticate('github', {
         scope: ['profile', 'email'] // can ask for other user details with different scopes
