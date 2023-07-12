@@ -24,7 +24,7 @@ class Payments extends Component {
         //return <button className = "btn" onClick={handleCheckout}>Add Credits</button>;
     }
 }
-// UNCOMMENT TO USE NEW PAYMENT METHOD!!!!
+// UNCOMMENT TO USE NEW PAYMENT METHOD!!!
 /*async function handleCheckout() {
     const stripe = await getStripe();
     const { error } = await stripe.redirectToCheckout({
