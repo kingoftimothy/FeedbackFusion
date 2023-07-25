@@ -11,7 +11,7 @@
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --legacy-peer-deps --prefix client && npm run build --prefix client"
+    "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install path-parser --legacy-peer-deps && npm install --legacy-peer-deps --prefix client && npm run build --prefix client"
   },
   "author": "",
   "license": "ISC",
