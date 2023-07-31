@@ -24,3 +24,9 @@ Backend - Allow users to delete surveys that have been created
 Front/Backend - Allow users to specify the 'from' field on survey emails  
 Frontend - Allow client side sorting of surveys  
 Front/Backend - Allow draft mode creation for surveys  
+
+
+Here are screenshot demo of creating Surveys to send out on the site: ![]()https://github.com/kingoftimothy/FeedbackFusion/blob/main/Demo1.png  
+![]()https://github.com/kingoftimothy/FeedbackFusion/blob/main/Demo2.png  
+![]()https://github.com/kingoftimothy/FeedbackFusion/blob/main/Demo3.png  
+![]()https://github.com/kingoftimothy/FeedbackFusion/blob/main/Demo4.png
